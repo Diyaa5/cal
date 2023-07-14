@@ -1,0 +1,17 @@
+convert letter to number
+validation lal input
+check if the user added number inside the credits
+0 4 credits
+make everything is filled out
+clean input text
+add button
+remove course for both the semester and course
+break line between semester
+submit button for calculate
+output gpa
+ctrl back track git in
+to put on github:
+git add space   .
+git commmit -m "message" lizim tkoon discriptive la n3ref sho 3melna
+git branch -M main
+nxt step:git remote add origin url(bas awal marra mn3mela)

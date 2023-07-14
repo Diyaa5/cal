@@ -1,0 +1,132 @@
+body{
+    
+    margin:  0px;
+    padding: 30px;
+    --color-font: #4A5B7D;
+    /* to nedfesha la jowa killa bl body */
+    font-family: 'Montserrat', sans-serif; /* from the link of the font */
+    font-display: swap; /* wa2testa3mel l fon family la sare3 l website*/
+    /*or  line-height: 70px */
+    /* 3arafna variable lineheight w mnhot fo2 var line height mahal 70px kermel nhoton kellon in the center */
+    --primary-blue: #D9F7FA;
+    
+
+}
+
+.main-nav-logo a,
+.main-nav-logo{
+
+    /*width: var(--line-height);
+    height: var(--line-height);*/
+    border-radius: 10px; 
+    /* la n8ayer l soora la cricle at edges */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-nav-logo a span{
+    /* zedna span la nba3ed logo 3an gpa header fo2 */
+    margin: 1rem;
+    font-weight: 700;
+
+}
+
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    /* hon to put space in the main nav */
+    /* -webkit-box-shadow: 0px 4px 32px -7px rgba(0,0,0,0.75); */
+    /* -moz-box-shadow: 0px 4px 32px -7px rgba(0,0,0,0.75); */
+    /* box-shadow: 0px 4px 32px -7px rgba(0,0,0,0.75); */
+    /* hon hatayna shadow w na2alna link mnl website  */
+    border-radius: 0px  0;
+    /* hon ntebhe fe top right buttom ... */
+    /* lizim nhota kella jowet l main nav la tzbat law hataynaha bl body as main ma kenet zobtet; */
+    background-color: var(--primary-blue);
+    /* we have to put ; dont forget it  */
+    padding: 0px 20px; 
+    /* hon only padding to ryt and left */
+  
+}
+
+.main-nav-links ul li {
+    display: inline; 
+    margin:  20px;
+}
+
+a{
+    color: var(--color-font);
+    text-decoration: none;
+}
+
+
+
+.main-nav-links ul li a { /*hon we are coloring all the links inside the ul (li)*/
+text-decoration: none;
+color: var(--color-font);
+/* 3ayatola la color font elle bl main nav */
+
+/*https:flatunicolor.com*/
+
+}
+
+ul{
+
+    margin: 0;
+    line-height:  70px; ;
+    /* la teje bl nos (to center it in the middle)  */
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--primary-blue);
+    color: #4A5B7D;
+
+
+}
+.header>div {
+    width: 40%;
+    /* hon la hatayna l jemle taht ba3da a5adet div children y3ne awal 2 elle heye l jemle w image in html */
+}
+
+
+.gpa-container{
+    box-shadow: 0 0.25em rgba(7, 29, 63, 0.125);
+    border-radius: 10px;
+    width: 75%;
+    padding: 20px;
+    /* margin: auto; */
+    /* automatically center the margin */
+    position: absolute;
+    top: 350px;
+    /* kel ma zedna menazela la taht lal soora elle 3la pic main y3ne kel ma bana nnzal mnzeed px */
+    left: 70px;
+    /* iza badna nzeha lal ryt mnser nzeeda lal left */
+    background-color: white;
+    /* bhot l background color kermel ma tekhod l color ta3ool l main */
+
+    color: #4A5B7D;
+
+
+}
+
+
+
+.Grade{
+    display: inline-flex;
+    /* inline la nzehon la 7ad b3dn */
+}
+
+#Grade{
+    padding: 20px;
+    font-weight: 700;
+    color: grey;
+}
+/* hon hashtag la2ano 3m n3ayet lal id's taba3on mnl html of grades credits and course name w 7atayna padding la nkaberon */
